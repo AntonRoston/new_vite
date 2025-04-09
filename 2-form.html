@@ -8,8 +8,8 @@
     <script type="module" crossorigin src="/new_vite/assets/vendor-CgTBfC_f.js"></script>
     <script type="module" crossorigin src="/new_vite/assets/1-gallery-C6LPz7eJ.js"></script>
     <script type="module" crossorigin src="/new_vite/assets/2-form-wdup7UpG.js"></script>
-    <link rel="stylesheet" crossorigin href="/new_vite/assets/vendor-DkczhqSJ.css">
     <link rel="stylesheet" crossorigin href="/new_vite/assets/1-gallery-AhxDVqfz.css">
+    <link rel="stylesheet" crossorigin href="/new_vite/assets/vendor-DkczhqSJ.css">
   </head>
   <body>
     <main>
@@ -18,10 +18,18 @@
       </div>
       <!-- Loads the specified .html file -->
       <div>
-        <ul>
-          <li><a href="./1-gallery.html">Gallery</a></li>
-          <li><a href="./2-form.html">Form</a></li>
-        </ul>
+        <form class="feedback-form" autocomplete="off">
+  <label>
+    Email
+    <input type="email" name="email" autofocus />
+  </label>
+  <label>
+    Message
+    <textarea name="message" rows="8"></textarea>
+  </label>
+  <button type="submit">Submit</button>
+</form>
+
       </div>
     </main>
 
